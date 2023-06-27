@@ -1,0 +1,80 @@
+## LINES
+
+| cycles | size | activity |
+| ------ | ---- | -------- |
+| 160 | 45 | 19 |
+<hr>
+<br>
+
+**XA**
+
+```
+; GET SONG NAME
+GRAB 300
+COPY F X
+COPY F T
+DROP
+
+
+GRAB 301
+LINK 800
+
+
+MARK DIAL
+@REP 11
+COPY F #DIAL
+@END
+REPL ENTER
+COPY -1 #DIAL
+JUMP DIAL
+
+
+
+MARK ENTER
+LINK 800
+REPL WRITE_LIST
+
+COPY X M
+MARK STORAGE_SEND
+COPY T M
+JUMP STORAGE_SEND
+
+
+
+MARK WRITE_LIST
+COPY M X
+GRAB 200
+MARK WRITE_LIST_LOOP
+COPY X F
+COPY M F
+TEST EOF
+FJMP WRITE_LIST_LOOP
+KILL
+```
+
+<br>
+
+**KI**
+
+```
+LINK 800
+
+MARK LOOP
+ADDI X 1 X
+TEST X = 38
+FJMP LOOP
+
+KILL
+GRAB 301
+WIPE
+
+
+```
+
+<br>
+
+**XB**
+
+```
+
+```

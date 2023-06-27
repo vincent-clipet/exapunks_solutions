@@ -1,0 +1,118 @@
+## SIZE (COPY)
+
+| cycles | size | activity |
+| ------ | ---- | -------- |
+| 136 | 59 | 13 |
+<hr>
+<br>
+
+**DA**
+
+```
+; FILE DATA SENDER
+
+LINK 800
+GRAB 199
+
+
+MARK LOOP
+COPY F M
+TEST EOF
+FJMP LOOP
+
+
+DROP
+```
+
+<br>
+
+**PR**
+
+```
+; PROCESSING
+
+NOOP
+LINK 800
+
+
+MARK LOOP
+TEST MRD
+FJMP KILL
+GRAB M
+
+
+SEEK 1
+ADDI F F X
+ADDI X F X
+DIVI X 3 T;(BA+ZA+APB)/3
+
+MULI F F X
+DIVI X F X;(WRT*OI)/OD
+ADDI X T T
+REPL LOOP
+
+SUBI F F X
+MULI X 20 X;(PC-PS)*20
+ADDI X T X
+SEEK -9999
+COPY F T
+DROP
+
+
+LINK -1
+
+
+GRAB 400
+COPY X F
+SEEK 1
+COPY T F
+SEEK -9999
+TEST F > F
+TJMP NEW_BEST
+HALT
+
+
+
+MARK NEW_BEST
+SEEK -1
+COPY X F ; SCORE 2
+COPY F F ; NAME 3 -> 4
+HALT
+
+
+
+
+
+MARK KILL
+LINK -1
+
+
+COPY 5 X
+MARK NOOP_LOOP
+SUBI X 1 X
+TEST X > 0
+TJMP NOOP_LOOP
+
+GRAB 400
+VOID F
+VOID F
+VOID F
+HALT
+```
+
+<br>
+
+**HS**
+
+```
+; HIGH SCORE KEEPER
+
+
+MAKE
+COPY 0 F
+COPY 0 F
+COPY 0 F
+COPY 0 F
+HALT
+
+```

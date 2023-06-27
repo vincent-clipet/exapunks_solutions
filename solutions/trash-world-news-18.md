@@ -1,0 +1,88 @@
+## MULTITHREAD LOCAL
+
+| cycles | size | activity |
+| ------ | ---- | -------- |
+| 821 | 45 | 6 |
+<hr>
+<br>
+
+**XA**
+
+```
+GRAB 300
+LINK 800
+LINK 799
+DROP
+
+MARK RECEIVE
+GRAB 300
+TEST EOF
+TJMP EOF
+COPY F M ; GLOBAL
+COPY F X
+
+SEEK -2
+VOID F
+VOID F
+
+DROP
+REPL RECEIVE
+MODE ; LOCAL
+COPY X M ; LOCAL
+
+HALT
+
+
+
+MARK EOF
+WIPE
+COPY -1 M
+```
+
+<br>
+
+**XB**
+
+```
+LINK 800
+LINK 799
+GRAB 212
+
+
+MARK RECEIVE
+COPY M X ; GLOBAL
+MODE ; LOCAL
+TEST X = -1
+TJMP STOP
+MARK READ_FILE
+TEST X = F
+TJMP REPLACE
+JUMP READ_FILE
+
+
+MARK REPLACE
+SEEK -1
+COPY M F ; LOCAL
+MODE ; GLOBAL
+SEEK -9999
+JUMP RECEIVE
+
+
+MARK STOP
+
+
+
+
+```
+
+<br>
+
+**XC**
+
+```
+NOOP
+LINK 800
+GRAB 200
+LINK 800
+HALT
+```

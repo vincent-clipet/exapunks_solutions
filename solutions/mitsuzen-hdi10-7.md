@@ -1,0 +1,72 @@
+## REPL TEST
+
+| cycles | size | activity |
+| ------ | ---- | -------- |
+| 188 | 35 | 122 |
+<hr>
+<br>
+
+**XA**
+
+```
+LINK 800
+
+
+MARK LOOP
+COPY #NERV X
+TEST X > 50
+TJMP CLIP_50
+COPY X M
+JUMP LOOP
+
+
+MARK CLIP_50
+COPY 50 X
+REPL MOVE
+JUMP LOOP
+
+
+
+MARK MOVE
+LINK 1
+LINK 1
+LINK 1
+LINK 1
+COPY X #NERV
+
+
+
+
+```
+
+<br>
+
+**XB**
+
+```
+NOOP
+LINK 800
+
+MARK LOOP
+COPY M X
+TEST X < -120
+TJMP CLIP_120
+;COPY X M
+REPL MOVE
+JUMP LOOP
+
+MARK CLIP_120
+COPY -120 X
+REPL MOVE
+JUMP LOOP
+
+
+
+MARK MOVE
+LINK 1
+LINK 1
+LINK 1
+LINK 1
+COPY X #NERV
+
+```

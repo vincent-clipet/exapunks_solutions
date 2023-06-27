@@ -1,0 +1,90 @@
+## CYCLES (COPY)
+
+| cycles | size | activity |
+| ------ | ---- | -------- |
+| 155 | 58 | 19 |
+<hr>
+<br>
+
+**NO_NAME**
+
+```
+GRAB 301
+LINK 800
+
+COPY M X
+COPY M T
+
+MARK DIAL
+@REP 11
+COPY F #DIAL
+@END
+REPL ENTER
+COPY -1 #DIAL
+JUMP DIAL
+
+
+
+MARK ENTER
+LINK 800
+REPL WRITE_LIST
+
+COPY X M
+MARK STORAGE_SEND
+COPY T M
+JUMP STORAGE_SEND
+
+
+
+MARK WRITE_LIST
+COPY M X
+GRAB 200
+
+
+@REP 5
+COPY X F
+COPY M F
+@END
+MARK WRITE_LIST_LOOP
+COPY X F
+COPY M F
+TEST EOF
+FJMP WRITE_LIST_LOOP
+
+KILL
+```
+
+<br>
+
+**KI**
+
+```
+LINK 800
+
+MARK LOOP
+ADDI X 1 X
+TEST X = 38
+FJMP LOOP
+
+KILL
+GRAB 301
+WIPE
+
+
+```
+
+<br>
+
+**MS**
+
+```
+; GET SONG NAME
+GRAB 300
+
+COPY F M
+COPY F M
+
+DROP
+
+GRAB 301
+```

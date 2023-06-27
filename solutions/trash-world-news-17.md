@@ -1,0 +1,75 @@
+## MULTITHREAD
+
+| cycles | size | activity |
+| ------ | ---- | -------- |
+| 822 | 37 | 4 |
+<hr>
+<br>
+
+**XA**
+
+```
+MARK RECEIVE
+GRAB 300
+COPY F M
+COPY F X
+SEEK -2
+VOID F
+VOID F
+TEST EOF
+TJMP EOF
+DROP
+REPL RECEIVE
+COPY X M
+HALT
+
+
+MARK EOF
+COPY -1 M
+```
+
+<br>
+
+**XB**
+
+```
+LINK 800
+LINK 799
+GRAB 212
+
+
+MARK RECEIVE
+COPY M X
+TEST X = -1
+TJMP STOP
+MARK READ_FILE
+TEST X = F
+TJMP REPLACE
+JUMP READ_FILE
+
+
+MARK REPLACE
+SEEK -1
+COPY M F
+SEEK -9999
+JUMP RECEIVE
+
+
+MARK STOP
+
+
+
+
+```
+
+<br>
+
+**XC**
+
+```
+NOOP
+LINK 800
+GRAB 200
+LINK 800
+HALT
+```

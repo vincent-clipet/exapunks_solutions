@@ -1,0 +1,54 @@
+## CYCLES
+
+| cycles | size | activity |
+| ------ | ---- | -------- |
+| 184 | 25 | 6 |
+<hr>
+<br>
+
+**XB**
+
+```
+LINK 800
+LINK 1
+LINK 1
+LINK 1
+LINK 1
+
+MARK LOOP
+COPY M X
+
+TEST X > 50
+TJMP CLIP
+COPY X #NERV
+JUMP LOOP
+
+
+MARK CLIP
+COPY 50 #NERV
+JUMP LOOP
+```
+
+<br>
+
+**XA**
+
+```
+NOOP
+LINK 800
+
+MARK LOOP
+COPY #NERV X
+
+; MIN
+TEST X < -120
+TJMP CLIP
+COPY X M
+JUMP LOOP
+
+; SEND
+MARK CLIP
+COPY -120 M
+JUMP LOOP
+
+```

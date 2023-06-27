@@ -1,0 +1,84 @@
+## NEW SOLUTION 1
+
+| cycles | size | activity |
+| ------ | ---- | -------- |
+| 36 | 36 | 41 |
+<hr>
+<br>
+
+**IN**
+
+```
+GRAB 300
+COPY F M
+COPY F M
+```
+
+<br>
+
+**NO_NAME**
+
+```
+
+MARK START
+COPY M X
+REPL START
+COPY 800 T
+
+
+MARK COPY_EAST
+LINK T
+COPY 801 T
+REPL COPY_EAST
+
+
+MARK COPY_N8S
+REPL COPY_NORTH
+REPL COPY_SOUTH
+JUMP WRITE
+
+
+MARK COPY_NORTH
+LINK 800
+REPL COPY_NORTH
+JUMP WRITE
+
+
+
+MARK COPY_SOUTH
+LINK 802
+REPL COPY_SOUTH
+JUMP WRITE
+
+
+
+
+MARK WRITE
+HOST T
+TEST X = T
+FJMP HALT
+COPY 0 #POWR
+
+
+
+
+MARK HALT
+
+
+
+
+```
+
+<br>
+
+**XA**
+
+```
+NOOP
+NOOP
+NOOP
+NOOP
+NOOP
+NOOP
+KILL
+```

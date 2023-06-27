@@ -1,0 +1,72 @@
+## ACTIVITY
+
+| cycles | size | activity |
+| ------ | ---- | -------- |
+| 642 | 37 | 2 |
+<hr>
+<br>
+
+**XA**
+
+```
+; TMP STORE MODULO
+COPY M X
+COPY X M
+
+```
+
+<br>
+
+**XB**
+
+```
+GRAB 300
+COPY F X
+WIPE
+LINK 800
+GRAB 199
+
+MARK FIND_ID
+TEST X = F
+TJMP ID_FOUND
+SEEK 2
+JUMP FIND_ID
+
+
+MARK ID_FOUND
+SEEK 1
+COPY F X
+DROP
+LINK 799
+
+
+MARK CLONE
+GRAB X
+SEEK 2
+COPY 0 X
+
+
+MARK SUM
+ADDI X F X
+TEST EOF
+FJMP SUM
+
+
+; SETUP WRITE LOOP
+MODI X 75 M
+DIVI X 75 X
+SEEK -9999
+SEEK 2
+
+
+MARK WRITE_DIV
+TEST X = 0
+TJMP WRITE_MOD
+COPY 75 F
+SUBI X 1 X
+JUMP WRITE_DIV
+
+
+MARK WRITE_MOD
+COPY M F
+```

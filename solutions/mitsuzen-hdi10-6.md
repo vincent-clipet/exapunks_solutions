@@ -1,0 +1,55 @@
+## NEW SOLUTION 1 (COPY)
+
+| cycles | size | activity |
+| ------ | ---- | -------- |
+| 186 | 32 | 121 |
+<hr>
+<br>
+
+**XA**
+
+```
+LINK 800
+
+
+MARK SPLIT
+
+COPY #NERV X
+
+TEST X > 50
+TJMP CLIP_50
+
+TEST X < -120
+TJMP CLIP_120
+
+REPL SPLIT
+LINK 1
+LINK 1
+LINK 1
+LINK 1
+COPY X #NERV
+HALT
+
+
+
+MARK CLIP_50
+COPY 50 X
+REPL SPLIT
+LINK 1
+LINK 1
+LINK 1
+LINK 1
+COPY X #NERV
+HALT
+
+MARK CLIP_120
+COPY -120 X
+REPL SPLIT
+LINK 1
+LINK 1
+LINK 1
+LINK 1
+COPY X #NERV
+HALT
+
+```

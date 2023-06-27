@@ -1,0 +1,74 @@
+## BASIC 2 BOTS
+
+| cycles | size | activity |
+| ------ | ---- | -------- |
+| 640 | 37 | 3 |
+<hr>
+<br>
+
+**XA**
+
+```
+GRAB 300
+COPY F X
+WIPE
+LINK 800
+GRAB 199
+
+
+MARK FIND_ID
+TEST X = F
+TJMP ID_FOUND
+SEEK 2
+JUMP FIND_ID
+
+
+MARK ID_FOUND
+SEEK 1
+COPY F M
+
+
+; TMP STORE MODULO
+COPY M X
+COPY X M
+
+```
+
+<br>
+
+**XB**
+
+```
+LINK 800
+LINK 799
+
+MARK CLONE
+COPY M T
+GRAB T
+SEEK 2
+
+
+MARK SUM
+ADDI X F X
+TEST EOF
+FJMP SUM
+
+
+; SETUP WRITE LOOP
+MODI X 75 M
+DIVI X 75 X
+SEEK -9999
+SEEK 2
+
+
+MARK WRITE_DIV
+TEST X = 0
+TJMP WRITE_MOD
+COPY 75 F
+SUBI X 1 X
+JUMP WRITE_DIV
+
+
+MARK WRITE_MOD
+COPY M F
+```

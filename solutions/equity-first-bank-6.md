@@ -1,0 +1,38 @@
+## INCR LINK ID - UNROLLED
+
+| cycles | size | activity |
+| ------ | ---- | -------- |
+| 2959 | 50 | 10 |
+<hr>
+<br>
+
+**XA**
+
+```
+LINK 800
+LINK 800
+LINK 800
+
+COPY 799 X
+
+
+MARK MOVE
+ADDI X 1 X
+TEST X < 807
+FJMP HALT
+REPL MOVE
+LINK X
+;JUMP WITHDRAW
+
+
+
+MARK WITHDRAW
+@REP 34
+COPY 20 #DISP
+@END
+MARK WITHDRAW_IN
+COPY 20 #DISP
+TEST #CASH = 0
+FJMP WITHDRAW_IN
+MARK HALT
+```

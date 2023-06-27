@@ -1,0 +1,60 @@
+## ACTIVITY
+
+| cycles | size | activity |
+| ------ | ---- | -------- |
+| 4976 | 32 | 8 |
+<hr>
+<br>
+
+**XA**
+
+```
+LINK 800
+COPY -1 X
+
+MARK BRUTEFORCE
+ADDI X 1 X
+SWIZ X 3 #PASS
+SWIZ X 2 #PASS
+SWIZ X 1 #PASS
+
+REPL BRUTEFORCE
+
+LINK 800
+LINK -1
+KILL
+LINK 800
+
+
+MAKE
+SWIZ X 3 F
+SWIZ X 2 F
+SWIZ X 1 F
+DROP
+
+GRAB 199
+COPY F X
+DROP
+
+GRAB 401
+SEEK 9999
+COPY X F
+LINK -1
+LINK -1
+KILL
+
+
+```
+
+<br>
+
+**XB**
+
+```
+MAKE
+COPY M X
+SWIZ X 3 F
+SWIZ X 2 F
+SWIZ X 1 F
+COPY M F
+```

@@ -1,0 +1,56 @@
+## CYCLES WITH MOVES (COPY)
+
+| cycles | size | activity |
+| ------ | ---- | -------- |
+| 123 | 34 | 6 |
+<hr>
+<br>
+
+**WR**
+
+```
+LINK 800
+LINK 1
+LINK 1
+LINK 1
+LINK 1
+
+MARK LOOP
+@REP 9
+ COPY M #NERV
+@END
+JUMP LOOP
+```
+
+<br>
+
+**PR**
+
+```
+
+LINK 800
+
+MARK REPL
+REPL REPL
+MARK LOOP
+ COPY #NERV X
+ TEST X < -120
+ TJMP CLIP_120
+ TEST X > 50
+ TJMP CLIP_50
+ COPY X M
+JUMP LOOP
+
+
+; CLIP 50
+MARK CLIP_50
+COPY 50 M
+JUMP LOOP
+
+; CLIP -120
+MARK CLIP_120
+;NOOP
+NOOP
+COPY -120 M
+JUMP LOOP
+```

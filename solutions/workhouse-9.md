@@ -1,0 +1,83 @@
+## CYCLES TRIPLE UNROLL
+
+| cycles | size | activity |
+| ------ | ---- | -------- |
+| 220 | 65 | 3 |
+<hr>
+<br>
+
+**XB**
+
+```
+NOOP
+LINK 800
+LINK 799
+GRAB M
+SEEK 2
+COPY 0 X
+
+
+MARK SUM
+  ADDI X F X
+  TEST EOF
+  FJMP SUM
+
+
+SEEK -9999
+SEEK 2
+
+
+MARK LOOP_BIG
+  @REP 20
+  COPY 75 F
+  @END
+  SUBI X 1500 X
+
+  TEST X < 1500
+  FJMP LOOP_BIG
+
+
+MARK LOOP_MEDIUM
+  TEST X < 375
+  TJMP LOOP_SMALL
+  @REP 5
+  COPY 75 F
+  @END
+  SUBI X 375 X
+  JUMP LOOP_MEDIUM
+
+
+MARK LOOP_SMALL
+  TEST X < 75
+  TJMP WRITE_MOD
+  COPY 75 F
+  SUBI X 75 X
+  JUMP LOOP_SMALL
+
+
+MARK WRITE_MOD
+COPY X F
+```
+
+<br>
+
+**ID**
+
+```
+GRAB 300
+COPY F X
+WIPE
+LINK 800
+
+GRAB 199
+
+
+MARK FIND_ID
+  TEST X = F
+  SEEK 2
+  FJMP FIND_ID
+
+
+SEEK -1
+COPY F M
+```
