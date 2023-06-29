@@ -1,4 +1,4 @@
-## NEW SOLUTION 1
+## V1
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
@@ -19,7 +19,6 @@ COPY F M
 **NO_NAME**
 
 ```
-
 MARK START
 COPY M X
 REPL START
@@ -31,27 +30,20 @@ LINK T
 COPY 801 T
 REPL COPY_EAST
 
-
 MARK COPY_N8S
 REPL COPY_NORTH
 REPL COPY_SOUTH
 JUMP WRITE
-
 
 MARK COPY_NORTH
 LINK 800
 REPL COPY_NORTH
 JUMP WRITE
 
-
-
 MARK COPY_SOUTH
 LINK 802
 REPL COPY_SOUTH
 JUMP WRITE
-
-
-
 
 MARK WRITE
 HOST T
@@ -60,13 +52,7 @@ FJMP HALT
 COPY 0 #POWR
 
 
-
-
 MARK HALT
-
-
-
-
 ```
 
 <br>

@@ -1,4 +1,4 @@
-## CYCLES
+## CYCLES  V1
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
@@ -26,7 +26,6 @@ COPY F M
 ```
 ; ZEROING BALANCE
 
-;
 COPY M X
 LINK 800
 GRAB 200
@@ -39,16 +38,11 @@ JUMP LOOP
 
 
 MARK ERASE
-;COPY X M
 COPY F M
 COPY F M
 SEEK -2
 COPY 0 F
 COPY 0 F
-
-
-
-
 ```
 
 <br>
@@ -67,8 +61,6 @@ COPY M F ; DATE
 COPY M F ; ID
 COPY M F ; DOLLARS
 COPY M F ; CENTS
-
-
 ```
 
 <br>

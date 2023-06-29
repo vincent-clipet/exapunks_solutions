@@ -1,4 +1,4 @@
-## CYCLES 2
+## CYCLES V2
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
@@ -17,12 +17,10 @@ GRAB 199
 COPY F M
 @END
 
-
 MARK LOOP
 COPY F M
 TEST EOF
 FJMP LOOP
-
 
 DROP
 ```
@@ -37,12 +35,10 @@ DROP
 NOOP
 LINK 800
 
-
 MARK LOOP
 TEST MRD
 FJMP KILL
 GRAB M
-
 
 SEEK 1
 ADDI F F X
@@ -61,12 +57,10 @@ SEEK -9999
 COPY F X
 DROP
 
-
 LINK -1
 COPY T M
 COPY X M
 HALT
-
 
 
 MARK KILL
@@ -87,11 +81,9 @@ HALT
 ```
 ; HIGH SCORE KEEPER
 
-
 MAKE
 COPY 0 F
 SEEK -9999
-
 
 MARK LOOP
 COPY M X
@@ -100,8 +92,6 @@ TJMP NEW_BEST
 VOID M
 SEEK -9999
 JUMP LOOP
-
-
 
 MARK NEW_BEST
 COPY M F

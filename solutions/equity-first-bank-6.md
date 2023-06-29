@@ -1,4 +1,4 @@
-## INCR LINK ID - UNROLLED
+## CYCLES V3 - UNROLLED
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
@@ -12,9 +12,7 @@
 LINK 800
 LINK 800
 LINK 800
-
 COPY 799 X
-
 
 MARK MOVE
 ADDI X 1 X
@@ -22,9 +20,6 @@ TEST X < 807
 FJMP HALT
 REPL MOVE
 LINK X
-;JUMP WITHDRAW
-
-
 
 MARK WITHDRAW
 @REP 34

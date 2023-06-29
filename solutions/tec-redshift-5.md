@@ -1,8 +1,8 @@
-## CYCLES (COPY) (COPY)
+## CYCLES V2
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
-| 2983 | 41 | 11 |
+| 2972 | 42 | 11 |
 <hr>
 <br>
 
@@ -10,6 +10,7 @@
 
 ```
 LINK 800
+COPY 002 X
 
 MARK BRUTEFORCE
 NOOP
@@ -46,9 +47,7 @@ SWIZ X 3 F
 SWIZ X 2 F
 SWIZ X 1 F
 
-
 COPY M F
-
 LINK -1
 ```
 
@@ -75,5 +74,4 @@ KILL
 KILL
 GRAB 199
 COPY F M
-
 ```

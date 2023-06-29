@@ -1,4 +1,4 @@
-## 1 BOT
+## SIZE
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
@@ -10,20 +10,15 @@
 
 ```
 GRAB 300
-
 LINK 800
 
-
-
-  MARK LOOP
+MARK LOOP
 DIVI X 9 #DATA
 MODI X 9 #DATA
 COPY F #DATA
 ADDI X 1 X
-
 TEST EOF
-  FJMP LOOP
+FJMP LOOP
 
 WIPE
-
 ```

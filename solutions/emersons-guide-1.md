@@ -1,4 +1,4 @@
-## NEW SOLUTION 1
+## LINES
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
@@ -47,8 +47,6 @@ LINK 801
 MARK EAST_EXIT
 
 
-
-
 COPY M X
 ; NORTH-SOUTH CHOICE
 TEST X < 0
@@ -67,14 +65,10 @@ JUMP N_S_EXIT
 
 
 MARK SOUTH
-; NORTH 2
 LINK 802
 TEST X < -1
 FJMP N_S_EXIT
 LINK 802
-;JUMP N_S_EXIT
-
-
 
 
 MARK N_S_EXIT

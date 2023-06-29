@@ -1,8 +1,8 @@
-## BASIC
+## V1
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
-| 573 | 40 | 7 |
+| 573 | 39 | 7 |
 <hr>
 <br>
 
@@ -20,7 +20,6 @@ HOST T
 TEST T = X
 FJMP MOVE
 
-
 COPY F X
 WIPE
 GRAB 200
@@ -31,13 +30,11 @@ TEST X = F
 TJMP STRING_FOUND
 JUMP FIND_STRING
 
-
 MARK STRING_FOUND
 COPY F T
 COPY F X
 SEEK -9999
 SEEK T
-
 
 COPY X M; SEND LENGTH
 MARK COPY_VALUES
@@ -47,13 +44,7 @@ COPY F M
 SUBI X 1 X
 JUMP COPY_VALUES
 
-
 MARK COPY_FINISHED
-HALT
-
-
-
-
 ```
 
 <br>
@@ -64,14 +55,12 @@ HALT
 MAKE
 COPY M X; X = LENGTH
 
-
 MARK WRITE
 TEST X = 0
 TJMP WRITE_FINISHED
 COPY M F
 SUBI X 1 X
 JUMP WRITE
-
 
 MARK WRITE_FINISHED
 DROP

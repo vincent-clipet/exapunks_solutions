@@ -1,4 +1,4 @@
-## UNROLLED (COPY)
+## UNROLLED V2
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
@@ -43,7 +43,6 @@ MARK 5678
       JUMP KILL_BACK
 
 
-
 MARK KILL_BACK
 KILL
 GRAB 276
@@ -51,11 +50,4 @@ LINK -1
 LINK -1
 LINK -1
 LINK -1
-
-
-;MARK LOOP
-;LINK -1
-;ADDI X 1 X
-;TEST X = 4
-;FJMP LOOP
 ```

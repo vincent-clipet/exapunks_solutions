@@ -1,8 +1,8 @@
-## CYCLES (COPY)
+## CYCLES V3
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
-| 155 | 58 | 19 |
+| 155 | 57 | 19 |
 <hr>
 <br>
 
@@ -24,7 +24,6 @@ COPY -1 #DIAL
 JUMP DIAL
 
 
-
 MARK ENTER
 LINK 800
 REPL WRITE_LIST
@@ -35,11 +34,9 @@ COPY T M
 JUMP STORAGE_SEND
 
 
-
 MARK WRITE_LIST
 COPY M X
 GRAB 200
-
 
 @REP 5
 COPY X F
@@ -69,8 +66,6 @@ FJMP LOOP
 KILL
 GRAB 301
 WIPE
-
-
 ```
 
 <br>
@@ -80,11 +75,7 @@ WIPE
 ```
 ; GET SONG NAME
 GRAB 300
-
 COPY F M
 COPY F M
-
 DROP
-
-GRAB 301
 ```

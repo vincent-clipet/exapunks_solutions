@@ -1,4 +1,4 @@
-## NEW SOLUTION 1 (COPY)
+## V1
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
@@ -14,7 +14,6 @@ MARK NOOP_LOOP
 SUBI T 1 T
 TJMP NOOP_LOOP
 
-
 GRAB 300
 COPY F X
 DROP
@@ -22,12 +21,7 @@ DROP
 LINK 800
 COPY #TRAK T
 LINK 801
-
-
-
 JUMP LOOP
-
-
 
 
 MARK OW1
@@ -53,7 +47,6 @@ JUMP OW5_DONE
 MARK OW6
 COPY X M
 JUMP OW6_DONE
-
 
 
 MARK LOOP
@@ -102,10 +95,6 @@ LINK -1
 COPY #TRAK T
 LINK 801
 JUMP LOOP
-
-
-
-
 ```
 
 <br>

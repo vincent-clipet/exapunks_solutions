@@ -1,4 +1,4 @@
-## NEW SOLUTION 2
+## SIZE
 
 | cycles | size | activity |
 | ------ | ---- | -------- |

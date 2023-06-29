@@ -13,10 +13,7 @@ LINK 800
 GRAB 200
 COPY F X
 WIPE
-
 MAKE
-
-
 
 
 MARK LOOP
@@ -40,8 +37,5 @@ COPY X F
  FJMP ONE_BY_ONE
 
 
-
-
 LINK 800
-
 ```

@@ -1,4 +1,4 @@
-## NEW SOLUTION 1
+## V1
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
@@ -49,11 +49,6 @@ LINK -3
 LINK -3
 LINK -3
 COPY X #NERV
-
-
-
-
-
 ```
 
 <br>

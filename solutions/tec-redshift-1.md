@@ -27,8 +27,6 @@ LINK 800
 COPY X M
 GRAB 199
 COPY F M
-
-
 ```
 
 <br>

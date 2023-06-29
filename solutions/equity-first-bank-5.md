@@ -1,4 +1,4 @@
-## INCR LINK ID
+## CYCLES V2
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
@@ -12,9 +12,7 @@
 LINK 800
 LINK 800
 LINK 800
-
 COPY 799 X
-
 
 MARK MOVE
 ADDI X 1 X
@@ -23,8 +21,6 @@ FJMP HALT
 REPL MOVE
 LINK X
 JUMP WITHDRAW
-
-
 
 MARK WITHDRAW
 COPY 20 #DISP

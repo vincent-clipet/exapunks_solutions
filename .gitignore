@@ -1,6 +1,1 @@
-game_data/custom
-game_data/deleted
-game_data/workshop
-
-game_data/*
-!game_data/*.solution
+game_data

@@ -1,4 +1,4 @@
-## CYCLES WITH MOVES (COPY)
+## CYCLES V3
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
@@ -27,18 +27,17 @@ JUMP LOOP
 **PR**
 
 ```
-
 LINK 800
 
 MARK REPL
 REPL REPL
 MARK LOOP
- COPY #NERV X
- TEST X < -120
- TJMP CLIP_120
- TEST X > 50
- TJMP CLIP_50
- COPY X M
+COPY #NERV X
+TEST X < -120
+TJMP CLIP_120
+TEST X > 50
+TJMP CLIP_50
+COPY X M
 JUMP LOOP
 
 

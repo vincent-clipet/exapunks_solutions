@@ -15,7 +15,6 @@ COPY F M
 COPY F M
 COPY F M
 COPY F M
-;WIPE
 ```
 
 <br>

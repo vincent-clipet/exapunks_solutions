@@ -1,4 +1,4 @@
-## NEW SOLUTION 1 - FULL (COPY) (COPY)
+## LINES
 
 | cycles | size | activity |
 | ------ | ---- | -------- |

@@ -1,4 +1,4 @@
-## NEW SOLUTION 1 (COPY)
+## 1 BOT
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
@@ -32,9 +32,6 @@ LINK 801
 COPY M X
 
 
-
-
-
 ; EAST-WEST
 TEST X < 2
 TJMP EAST
@@ -56,14 +53,6 @@ LINK 803
 
 
 MARK E_W_EXIT
-
-
-
-
-
-
-
-
 COPY M X
 ; NORTH-SOUTH CHOICE
 TEST X < 0
@@ -88,8 +77,6 @@ TEST X < -1
 FJMP N_S_EXIT
 LINK 802
 ;JUMP N_S_EXIT
-
-
 
 
 MARK N_S_EXIT

@@ -2,7 +2,7 @@
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
-| 115 | 48 | 3 |
+| 115 | 47 | 3 |
 <hr>
 <br>
 
@@ -10,7 +10,6 @@
 
 ```
 GRAB 300
-
 LINK 800
 
 MARK LOOP
@@ -19,8 +18,6 @@ TEST EOF
 FJMP LOOP
 KILL
 WIPE
-HALT
-
 ```
 
 <br>
@@ -70,26 +67,4 @@ COPY M #DATA
 ADDI X 1 X
 
 JUMP LOOP
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ```

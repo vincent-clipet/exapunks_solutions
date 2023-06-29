@@ -1,8 +1,8 @@
-## SIZE (COPY)
+## SIZE
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
-| 136 | 59 | 13 |
+| 136 | 57 | 13 |
 <hr>
 <br>
 
@@ -14,12 +14,10 @@
 LINK 800
 GRAB 199
 
-
 MARK LOOP
 COPY F M
 TEST EOF
 FJMP LOOP
-
 
 DROP
 ```
@@ -58,9 +56,7 @@ SEEK -9999
 COPY F T
 DROP
 
-
 LINK -1
-
 
 GRAB 400
 COPY X F
@@ -72,15 +68,11 @@ TJMP NEW_BEST
 HALT
 
 
-
 MARK NEW_BEST
 SEEK -1
 COPY X F ; SCORE 2
 COPY F F ; NAME 3 -> 4
 HALT
-
-
-
 
 
 MARK KILL
@@ -97,7 +89,6 @@ GRAB 400
 VOID F
 VOID F
 VOID F
-HALT
 ```
 
 <br>
@@ -107,12 +98,9 @@ HALT
 ```
 ; HIGH SCORE KEEPER
 
-
 MAKE
 COPY 0 F
 COPY 0 F
 COPY 0 F
 COPY 0 F
-HALT
-
 ```

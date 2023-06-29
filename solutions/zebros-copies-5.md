@@ -2,11 +2,11 @@
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
-| 58 | 50 | 4 |
+| 58 | 49 | 4 |
 <hr>
 <br>
 
-**XD**
+**ID**
 
 ```
 ; SEND CUSTOMER ID
@@ -14,18 +14,15 @@
 GRAB 300
 COPY F M
 SEEK -1
-NOOP
 COPY F M
-;WIPE
 ```
 
 <br>
 
-**XA**
+**ZE**
 
 ```
 ; ZEROING BALANCE
-
 ;
 COPY M X
 LINK 800
@@ -69,21 +66,16 @@ JUMP LOOP
 
 
 MARK ERASE
-;COPY X M
 COPY F M
 COPY F M
 SEEK -2
 COPY 0 F
 COPY 0 F
-
-
-
-
 ```
 
 <br>
 
-**XC**
+**PA**
 
 ```
 ; APPEND TO PAYMENT LOG
@@ -97,13 +89,11 @@ COPY M F ; DATE
 COPY M F ; ID
 COPY M F ; DOLLARS
 COPY M F ; CENTS
-
-
 ```
 
 <br>
 
-**XB**
+**TI**
 
 ```
 ; SEND DATE

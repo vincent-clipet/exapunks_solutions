@@ -1,4 +1,4 @@
-## CYCLES (COPY)
+## CYCLES V1
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
@@ -45,9 +45,7 @@ SWIZ X 3 F
 SWIZ X 2 F
 SWIZ X 1 F
 
-
 COPY M F
-
 LINK -1
 ```
 
@@ -74,5 +72,4 @@ KILL
 KILL
 GRAB 199
 COPY F M
-
 ```

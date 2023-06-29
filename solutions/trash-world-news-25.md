@@ -1,8 +1,8 @@
-## MULTITHREAD LOCAL WITH KILL (COPY) (COPY)
+## V3 - MULTITHREAD LOCAL & KILL
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
-| 569 | 45 | 6 |
+| 569 | 44 | 6 |
 <hr>
 <br>
 
@@ -29,9 +29,7 @@ DROP
 REPL RECEIVE
 MODE ; LOCAL
 COPY X M ; LOCAL
-
 HALT
-
 
 
 MARK EOF
@@ -45,11 +43,9 @@ COPY -1 M
 
 ```
 ; REPLACER
-
 LINK 800
 LINK 799
 GRAB 212
-
 
 MARK RECEIVE
 COPY M X ; GLOBAL
@@ -60,7 +56,6 @@ MARK READ_FILE
 TEST X = F
 FJMP READ_FILE
 
-
 MARK REPLACE
 SEEK -1
 COPY M F ; LOCAL
@@ -68,12 +63,7 @@ MODE ; GLOBAL
 SEEK -9999
 JUMP RECEIVE
 
-
 MARK STOP
-
-
-
-
 ```
 
 <br>
@@ -88,5 +78,4 @@ NOOP
 LINK 800
 GRAB 200
 LINK 800
-HALT
 ```

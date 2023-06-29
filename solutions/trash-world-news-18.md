@@ -1,8 +1,8 @@
-## MULTITHREAD LOCAL
+## V3 - MULTITHREAD LOCAL
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
-| 821 | 45 | 6 |
+| 821 | 44 | 6 |
 <hr>
 <br>
 
@@ -29,10 +29,7 @@ DROP
 REPL RECEIVE
 MODE ; LOCAL
 COPY X M ; LOCAL
-
 HALT
-
-
 
 MARK EOF
 WIPE
@@ -48,7 +45,6 @@ LINK 800
 LINK 799
 GRAB 212
 
-
 MARK RECEIVE
 COPY M X ; GLOBAL
 MODE ; LOCAL
@@ -59,7 +55,6 @@ TEST X = F
 TJMP REPLACE
 JUMP READ_FILE
 
-
 MARK REPLACE
 SEEK -1
 COPY M F ; LOCAL
@@ -67,12 +62,7 @@ MODE ; GLOBAL
 SEEK -9999
 JUMP RECEIVE
 
-
 MARK STOP
-
-
-
-
 ```
 
 <br>
@@ -84,5 +74,4 @@ NOOP
 LINK 800
 GRAB 200
 LINK 800
-HALT
 ```

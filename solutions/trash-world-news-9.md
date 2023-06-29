@@ -1,8 +1,8 @@
-## NEW SOLUTION 1
+## LINES
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
-| 407 | 11 | 2 |
+| 305 | 11 | 2 |
 <hr>
 <br>
 
@@ -11,14 +11,14 @@
 ```
 LINK 800
 GRAB 200
-COPY F X
+COPY F T
 WIPE
 MAKE
 MARK LOOP
-COPY X F
-SUBI X 1 X
-TEST X = -1
-FJMP LOOP
+COPY T F
+SUBI T 1 T
+TJMP LOOP
+COPY 0 F
 LINK 800
 
 ```

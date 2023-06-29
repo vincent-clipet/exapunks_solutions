@@ -1,4 +1,4 @@
-## UNROLLED
+## UNROLLED - V1
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
@@ -59,7 +59,6 @@ MARK 5678
       JUMP KILL_BACK
 
 
-
 MARK KILL_BACK
 KILL
 GRAB 276
@@ -67,5 +66,4 @@ LINK -1
 LINK -1
 LINK -1
 LINK -1
-HALT
 ```

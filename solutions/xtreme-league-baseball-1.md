@@ -1,8 +1,8 @@
-## CYCLES
+## CYCLES V1
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
-| 121 | 71 | 14 |
+| 121 | 70 | 14 |
 <hr>
 <br>
 
@@ -17,12 +17,10 @@ GRAB 199
 COPY F M
 @END
 
-
 MARK LOOP
 COPY F M
 TEST EOF
 FJMP LOOP
-
 
 DROP
 ```
@@ -37,12 +35,10 @@ DROP
 NOOP
 LINK 800
 
-
 MARK LOOP
 TEST MRD
 FJMP KILL
 GRAB M
-
 
 SEEK 1
 ADDI F F X
@@ -70,9 +66,6 @@ COPY X M
 HALT
 
 
-
-
-
 MARK KILL
 LINK -1
 @REP 11
@@ -81,7 +74,6 @@ NOOP
 KILL
 GRAB 400
 VOID F
-HALT
 ```
 
 <br>
@@ -101,7 +93,6 @@ TJMP NEW_BEST
 VOID M
 SEEK -9999
 JUMP LOOP
-
 
 
 MARK NEW_BEST

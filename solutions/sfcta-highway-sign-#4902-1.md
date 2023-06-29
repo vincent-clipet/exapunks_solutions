@@ -1,8 +1,8 @@
-## NEW SOLUTION 1
+## CYCLES V1
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
-| 140 | 17 | 3 |
+| 140 | 16 | 3 |
 <hr>
 <br>
 
@@ -20,8 +20,6 @@ TEST EOF
 FJMP LOOP
 WIPE
 KILL
-HALT
-
 ```
 
 <br>
@@ -39,26 +37,4 @@ COPY M #DATA
 ADDI X 1 X
 
 JUMP LOOP
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ```

@@ -13,7 +13,6 @@
 
 GRAB 300
 COPY F M
-;WIPE
 ```
 
 <br>
@@ -23,18 +22,15 @@ COPY F M
 ```
 ; ZEROING BALANCE
 
-;
 COPY M X
 LINK 800
 GRAB 200
 
 MARK LOOP
-;COPY F T
 TEST F = X
 TJMP ERASE
 SEEK 2
 JUMP LOOP
-
 
 MARK ERASE
 COPY X M
@@ -43,10 +39,6 @@ COPY F M
 SEEK -2
 COPY 0 F
 COPY 0 F
-
-
-
-
 ```
 
 <br>
@@ -65,8 +57,6 @@ COPY M F ; DATE
 COPY M F ; ID
 COPY M F ; DOLLARS
 COPY M F ; CENTS
-
-
 ```
 
 <br>

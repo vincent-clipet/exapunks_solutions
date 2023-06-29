@@ -1,4 +1,4 @@
-## UNROLLED + DIV 10 
+## UNROLLED + DIV 10
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
@@ -13,8 +13,6 @@ LINK 800
 GRAB 200
 COPY F M
 WIPE
-
-
 MAKE
 LINK 800
 
@@ -73,6 +71,4 @@ TEST X < 0
 FJMP LOOP
 LINK 800
 KILL
-
-
 ```

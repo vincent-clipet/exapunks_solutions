@@ -1,8 +1,8 @@
-## 3 BOTS
+## CYCLES V3 - 3 BOTS
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
-| 88 | 22 | 5 |
+| 88 | 21 | 5 |
 <hr>
 <br>
 
@@ -13,20 +13,14 @@ GRAB 300
 NOOP
 LINK 800
 
-
-; LOOP
 MARK LOOP
 COPY F #DATA
 TEST EOF
 FJMP LOOP
 
-
-; KILL
 KILL
 KILL
 WIPE
-HALT
-
 ```
 
 <br>
@@ -36,8 +30,6 @@ HALT
 ```
 LINK 800
 
-
-;LOOP
 MARK LOOP
 DIVI X 9 #DATA
 ADDI X 1 X
@@ -52,8 +44,6 @@ JUMP LOOP
 NOOP
 LINK 800
 
-
-;LOOP
 MARK LOOP
 MODI X 9 #DATA
 ADDI X 1 X

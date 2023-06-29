@@ -17,7 +17,6 @@ WIPE
 MAKE
 
 
-
 COPY X F
 SUBI X 1 X
 COPY X F
@@ -68,8 +67,5 @@ COPY X F
  FJMP LOOP
 
 
-
-
 LINK 800
-
 ```

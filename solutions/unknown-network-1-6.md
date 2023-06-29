@@ -54,11 +54,4 @@ LINK -1
 LINK -1
 LINK -1
 LINK -1
-
-
-;MARK LOOP
-;LINK -1
-;ADDI X 1 X
-;TEST X = 4
-;FJMP LOOP
 ```
