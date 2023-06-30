@@ -3,7 +3,7 @@
 | PB000 | trash-world-news | 4 | 3 | 2 | &nbsp; | `trash-world-news-1` | `trash-world-news-1` | `trash-world-news-1` |
 | PB001 | trash-world-news | 7 | 6 | 2 | &nbsp; | `trash-world-news-10` | `trash-world-news-10` | `trash-world-news-10` |
 | PB037 | trash-world-news | 9 | 12 | 3 | &nbsp; | `trash-world-news-12` | `trash-world-news-12` | `trash-world-news-13` |
-| PB002 | trash-world-news | 134 | 11 | 2 | &nbsp; | `trash-world-news-27` | `trash-world-news-9` | `trash-world-news-20` |
+| PB002 | trash-world-news | 132 | 11 | 2 | &nbsp; | `trash-world-news-29` | `trash-world-news-9` | `trash-world-news-20` |
 | PB003B | euclids-pizza | 13 | 14 | 1 | &nbsp; | `euclids-pizza-4` | `euclids-pizza-4` | `euclids-pizza-2` |
 | PB004 | mitsuzen-hdi10 | 56 | 22 | 6 | &nbsp; | `mitsuzen-hdi10-16` | `mitsuzen-hdi10-3` | `mitsuzen-hdi10-10` |
 | PB005 | last-stop-snaxnet | 28 | 13 | 2 | &nbsp; | `last-stop-snaxnet-12` | `last-stop-snaxnet-11` | `last-stop-snaxnet-11` |
@@ -25,3 +25,4 @@
 | PB023 | xtreme-league-baseball | 111 | 57 | 13 | &nbsp; | `xtreme-league-baseball-5` | `xtreme-league-baseball-4` | `xtreme-league-baseball-4` |
 | PB024 | kings-ransom-online | 31 | 51 | 25 | &nbsp; | `kings-ransom-online-6` | `kings-ransom-online-1` | `kings-ransom-online-5` |
 | PB028 | kgogtv | 423 | 77 | 7 | &nbsp; | `kgogtv-13` | `kgogtv-12` | `kgogtv-10` |
+| PB025 | equity-first-bank | 97 | 75 | 17 | &nbsp; | `equity-first-bank-8` | `equity-first-bank-8` | `equity-first-bank-8` |

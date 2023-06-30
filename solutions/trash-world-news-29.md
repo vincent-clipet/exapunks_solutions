@@ -1,8 +1,8 @@
-## PB002 --- UNROLLED + DIV 10
+## PB002 --- UNROLLED X6
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
-| 134 | 44 | 13 |
+| 132 | 50 | 15 |
 <hr>
 <br>
 
@@ -18,7 +18,7 @@ LINK 800
 
 
 MARK LOOP
-@REP 5
+@REP 6
  COPY M F
 @END
 JUMP LOOP
@@ -39,6 +39,7 @@ REPL LOOP_2
 REPL LOOP_3
 REPL LOOP_4
 REPL LOOP_5
+REPL LOOP_6
 JUMP LOOP_1
 
 
@@ -58,14 +59,19 @@ MARK LOOP_5
 SUBI X 3 X
 JUMP LOOP
 
-MARK LOOP_1
+MARK LOOP_6
 SUBI X 4 X
+JUMP LOOP
+
+MARK LOOP_1
+SUBI X 5 X
 JUMP LOOP
 
 
 MARK LOOP
 COPY X M
-SUBI X 5 X
+SUBI X 6 X
+NOOP
 NOOP
 TEST X < 0
 FJMP LOOP
