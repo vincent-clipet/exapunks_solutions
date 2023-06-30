@@ -1,21 +1,27 @@
-| cycles | size | activity | &nbsp; | solution_best_cycles | solution_best_size | solution_best_activity |
-| :------: | :----: | :--------: | --- | -------------------- | ------------------ | ---------------------- |
-| 24 | 33 | 20 | &nbsp; | `alliance-power-and-light-3` | `alliance-power-and-light-3` | `alliance-power-and-light-3` |
-| 286 | 46 | 63 | &nbsp; | `digital-library-project-11` | `digital-library-project-5` | `digital-library-project-1` |
-| 30 | 45 | 6 | &nbsp; | `emersons-guide-5` | `emersons-guide-1` | `emersons-guide-1` |
-| 1130 | 16 | 10 | &nbsp; | `equity-first-bank-10` | `equity-first-bank-5` | `equity-first-bank-10` |
-| 13 | 14 | 1 | &nbsp; | `euclids-pizza-4` | `euclids-pizza-4` | `euclids-pizza-2` |
-| 423 | 77 | 7 | &nbsp; | `kgogtv-13` | `kgogtv-12` | `kgogtv-10` |
-| 31 | 51 | 25 | &nbsp; | `kings-ransom-online-6` | `kings-ransom-online-1` | `kings-ransom-online-5` |
-| 28 | 13 | 2 | &nbsp; | `last-stop-snaxnet-12` | `last-stop-snaxnet-11` | `last-stop-snaxnet-11` |
-| 46 | 22 | 6 | &nbsp; | `mitsuzen-hdi10-12` | `mitsuzen-hdi10-3` | `mitsuzen-hdi10-10` |
-| 5712 | 100 | 65 | &nbsp; | `sawayama-wonderdisc-2` | `sawayama-wonderdisc-2` | `sawayama-wonderdisc-2` |
-| 88 | 10 | 1 | &nbsp; | `sfcta-highway-sign-#4902-6` | `sfcta-highway-sign-#4902-3` | `sfcta-highway-sign-#4902-3` |
-| 144 | 45 | 19 | &nbsp; | `tec-exablaster-modem-7` | `tec-exablaster-modem-1` | `tec-exablaster-modem-1` |
-| 2833 | 21 | 5 | &nbsp; | `tec-redshift-8` | `tec-redshift-1` | `tec-redshift-1` |
-| 4 | 3 | 2 | &nbsp; | `trash-world-news-1` | `trash-world-news-1` | `trash-world-news-1` |
-| 106 | 32 | 7 | &nbsp; | `uc-berkeley-11` | `uc-berkeley-9` | `uc-berkeley-2` |
-| 16 | 19 | 27 | &nbsp; | `unknown-network-1-3` | `unknown-network-1-2` | `unknown-network-1-2` |
-| 217 | 27 | 2 | &nbsp; | `workhouse-10` | `workhouse-5` | `workhouse-3` |
-| 111 | 57 | 13 | &nbsp; | `xtreme-league-baseball-5` | `xtreme-league-baseball-4` | `xtreme-league-baseball-4` |
-| 58 | 27 | 4 | &nbsp; | `zebros-copies-5` | `zebros-copies-3` | `zebros-copies-3` |
+| id  | level | cycles | size  | activity | &nbsp; | solution_best_cycles | solution_best_size | solution_best_activity |
+| --- | ----- | :----: | :---: | :------: | ------ | -------------------- | ------------------ | ---------------------- |
+| PB000 | trash-world-news | 4 | 3 | 2 | &nbsp; | `trash-world-news-1` | `trash-world-news-1` | `trash-world-news-1` |
+| PB001 | trash-world-news | 7 | 6 | 2 | &nbsp; | `trash-world-news-10` | `trash-world-news-10` | `trash-world-news-10` |
+| PB002 | trash-world-news | 134 | 11 | 2 | &nbsp; | `trash-world-news-27` | `trash-world-news-9` | `trash-world-news-20` |
+| PB003B | euclids-pizza | 13 | 14 | 1 | &nbsp; | `euclids-pizza-4` | `euclids-pizza-4` | `euclids-pizza-2` |
+| PB004 | mitsuzen-hdi10 | 56 | 22 | 6 | &nbsp; | `mitsuzen-hdi10-16` | `mitsuzen-hdi10-3` | `mitsuzen-hdi10-10` |
+| PB005 | last-stop-snaxnet | 28 | 13 | 2 | &nbsp; | `last-stop-snaxnet-12` | `last-stop-snaxnet-11` | `last-stop-snaxnet-11` |
+| PB006B | zebros-copies | 58 | 27 | 4 | &nbsp; | `zebros-copies-5` | `zebros-copies-3` | `zebros-copies-3` |
+| PB007 | sfcta-highway-sign-#4902 | 88 | 10 | 1 | &nbsp; | `sfcta-highway-sign-#4902-6` | `sfcta-highway-sign-#4902-3` | `sfcta-highway-sign-#4902-3` |
+| PB008 | unknown-network-1 | 16 | 19 | 27 | &nbsp; | `unknown-network-1-3` | `unknown-network-1-2` | `unknown-network-1-2` |
+| PB009 | uc-berkeley | 106 | 32 | 7 | &nbsp; | `uc-berkeley-11` | `uc-berkeley-9` | `uc-berkeley-2` |
+| PB010B | workhouse | 217 | 27 | 2 | &nbsp; | `workhouse-10` | `workhouse-5` | `workhouse-3` |
+| PB011B | mitsuzen-hdi10 | 87 | 33 | 7 | &nbsp; | `mitsuzen-hdi10-18` | `mitsuzen-hdi10-19` | `mitsuzen-hdi10-17` |
+| PB012 | equity-first-bank | 1130 | 16 | 10 | &nbsp; | `equity-first-bank-10` | `equity-first-bank-5` | `equity-first-bank-10` |
+| PB013C | trash-world-news | 569 | 30 | 4 | &nbsp; | `trash-world-news-25` | `trash-world-news-16` | `trash-world-news-16` |
+| PB015 | tec-redshift | 2833 | 21 | 5 | &nbsp; | `tec-redshift-8` | `tec-redshift-1` | `tec-redshift-1` |
+| PB016 | digital-library-project | 286 | 46 | 63 | &nbsp; | `digital-library-project-11` | `digital-library-project-5` | `digital-library-project-1` |
+| PB018 | emersons-guide | 30 | 45 | 6 | &nbsp; | `emersons-guide-5` | `emersons-guide-1` | `emersons-guide-1` |
+| PB020 | sawayama-wonderdisc | 5712 | 100 | 65 | &nbsp; | `sawayama-wonderdisc-2` | `sawayama-wonderdisc-2` | `sawayama-wonderdisc-2` |
+| PB021 | alliance-power-and-light | 24 | 33 | 20 | &nbsp; | `alliance-power-and-light-3` | `alliance-power-and-light-3` | `alliance-power-and-light-3` |
+| PB023 | xtreme-league-baseball | 111 | 57 | 13 | &nbsp; | `xtreme-league-baseball-5` | `xtreme-league-baseball-4` | `xtreme-league-baseball-4` |
+| PB024 | kings-ransom-online | 31 | 51 | 25 | &nbsp; | `kings-ransom-online-6` | `kings-ransom-online-1` | `kings-ransom-online-5` |
+| PB028 | kgogtv | 423 | 77 | 7 | &nbsp; | `kgogtv-13` | `kgogtv-12` | `kgogtv-10` |
+| PB037 | trash-world-news | 9 | 12 | 3 | &nbsp; | `trash-world-news-12` | `trash-world-news-12` | `trash-world-news-13` |
+| PB038 | mitsuzen-hdi10 | 46 | 47 | 197 | &nbsp; | `mitsuzen-hdi10-12` | `mitsuzen-hdi10-12` | `mitsuzen-hdi10-12` |
+| PB040 | tec-exablaster-modem | 144 | 45 | 19 | &nbsp; | `tec-exablaster-modem-7` | `tec-exablaster-modem-1` | `tec-exablaster-modem-1` |
