@@ -26,3 +26,6 @@
 | PB024 | kings-ransom-online | 31 | 51 | 25 | &nbsp; | `kings-ransom-online-6` | `kings-ransom-online-1` | `kings-ransom-online-5` |
 | PB028 | kgogtv | 423 | 77 | 7 | &nbsp; | `kgogtv-13` | `kgogtv-12` | `kgogtv-10` |
 | PB025 | equity-first-bank | 97 | 75 | 17 | &nbsp; | `equity-first-bank-8` | `equity-first-bank-8` | `equity-first-bank-8` |
+| PB026B | tec-exablaster-modem | 967 | 94 | 33 | &nbsp; | `tec-exablaster-modem-15` | `tec-exablaster-modem-15` | `tec-exablaster-modem-12` |
+| PB029B | last-stop-snaxnet | 152 | 65 | 35 | &nbsp; | `last-stop-snaxnet-15` | `last-stop-snaxnet-14` | `last-stop-snaxnet-15` |
+| PB030 | mitsuzen-hdi10 | 957 | 40 | 302 | &nbsp; | `mitsuzen-hdi10-33` | `mitsuzen-hdi10-33` | `mitsuzen-hdi10-33` |
