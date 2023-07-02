@@ -1,3 +1,4 @@
+
 cd ../exapunks_save_file_exporter
 
 INPUT_DIR='../exapunks_solutions/game_data'
