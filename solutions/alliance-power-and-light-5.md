@@ -1,8 +1,8 @@
-## PB021 --- V2
+## PB021 --- V2 - DUPLICATE WRITE CODE (COPY)
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
-| 24 | 36 | 21 |
+| 23 | 35 | 20 |
 <hr>
 <br>
 
@@ -40,17 +40,21 @@ LINK 802
 REPL COPY_SOUTH
 
 
+
+; WRITE #POWR
 MARK WRITE
 REPL WRITE_2
 HOST X
-JUMP WRITE_3
-MARK WRITE_2
-HOST T
-MARK WRITE_3
 TEST X = T
 FJMP HALT
 COPY 0 #POWR
+HALT
 
-
+; WRITE (DUPLICATE)
+MARK WRITE_2
+HOST T
+TEST X = T
+FJMP HALT
+COPY 0 #POWR
 MARK HALT
 ```

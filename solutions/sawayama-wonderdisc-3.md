@@ -2,7 +2,7 @@
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
-| 5712 | 100 | 65 |
+| 5571 | 99 | 65 |
 <hr>
 <br>
 
@@ -89,7 +89,7 @@ FJMP LOOP_READ
 
 
 ;MARK EOF
-COPY -1 M
+COPY 0 M
 DROP
 LINK -1
 COPY #TRAK T
@@ -102,6 +102,8 @@ JUMP LOOP
 **AU**
 
 ```
+; AUTHENTICATION
+
 LINK 800
 COPY 8 #AUTH
 COPY 0 #AUTH
@@ -135,10 +137,9 @@ MARK SPLIT
 MAKE
 
 MARK LOOP_WRITE
- COPY M X
- TEST X = -1
- TJMP DROP
- COPY X F
+ COPY M T
+ FJMP DROP
+ COPY T F
  JUMP LOOP_WRITE
 
 

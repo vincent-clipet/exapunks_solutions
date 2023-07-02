@@ -1,8 +1,8 @@
-## PB023 --- CYCLES V2
+## PB023 --- CYCLES V3
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
-| 111 | 62 | 14 |
+| 102 | 62 | 14 |
 <hr>
 <br>
 
@@ -38,8 +38,8 @@ ADDI F F X
 ADDI X F X
 DIVI X 3 T;(BA+ZA+APB)/3
 
-MULI F F X
 REPL LOOP
+MULI F F X
 DIVI X F X;(WRT*OI)/OD
 ADDI X T T
 
@@ -58,13 +58,12 @@ HALT
 
 MARK KILL
 LINK -1
-@REP 11
+@REP 12
 NOOP
 @END
 KILL
 GRAB 400
 VOID F
-HALT
 ```
 
 <br>
