@@ -5,8 +5,8 @@
 | PB037 | trash-world-news | 9 | 12 | 3 | &nbsp; | `trash-world-news-12` | `trash-world-news-12` | `trash-world-news-13` |
 | PB002 | trash-world-news | 132 | 11 | 2 | &nbsp; | `trash-world-news-29` | `trash-world-news-9` | `trash-world-news-20` |
 | PB003B | euclids-pizza | 13 | 14 | 1 | &nbsp; | `euclids-pizza-4` | `euclids-pizza-4` | `euclids-pizza-2` |
-| PB004 | mitsuzen-hdi10 | 46 | 21 | 6 | &nbsp; | `mitsuzen-hdi10-30` | `mitsuzen-hdi10-30` | `mitsuzen-hdi10-10` |
-| PB005 | last-stop-snaxnet | 28 | 13 | 2 | &nbsp; | `last-stop-snaxnet-12` | `last-stop-snaxnet-11` | `last-stop-snaxnet-11` |
+| PB004 | mitsuzen-hdi10 | 37 | 21 | 6 | &nbsp; | `mitsuzen-hdi10-35` | `mitsuzen-hdi10-30` | `mitsuzen-hdi10-30` |
+| PB005 | last-stop-snaxnet | 27 | 13 | 2 | &nbsp; | `last-stop-snaxnet-16` | `last-stop-snaxnet-11` | `last-stop-snaxnet-11` |
 | PB006B | zebros-copies | 58 | 27 | 4 | &nbsp; | `zebros-copies-5` | `zebros-copies-3` | `zebros-copies-3` |
 | PB007 | sfcta-highway-sign-#4902 | 88 | 10 | 1 | &nbsp; | `sfcta-highway-sign-#4902-6` | `sfcta-highway-sign-#4902-3` | `sfcta-highway-sign-#4902-3` |
 | PB008 | unknown-network-1 | 16 | 19 | 27 | &nbsp; | `unknown-network-1-3` | `unknown-network-1-2` | `unknown-network-1-2` |
@@ -14,7 +14,7 @@
 | PB010B | workhouse | 217 | 27 | 2 | &nbsp; | `workhouse-10` | `workhouse-5` | `workhouse-3` |
 | PB012 | equity-first-bank | 1077 | 16 | 10 | &nbsp; | `equity-first-bank-11` | `equity-first-bank-5` | `equity-first-bank-10` |
 | PB011B | mitsuzen-hdi10 | 87 | 33 | 7 | &nbsp; | `mitsuzen-hdi10-18` | `mitsuzen-hdi10-19` | `mitsuzen-hdi10-17` |
-| PB013C | trash-world-news | 569 | 30 | 4 | &nbsp; | `trash-world-news-25` | `trash-world-news-16` | `trash-world-news-16` |
+| PB013C | trash-world-news | 551 | 24 | 4 | &nbsp; | `trash-world-news-32` | `trash-world-news-32` | `trash-world-news-16` |
 | PB015 | tec-redshift | 2833 | 21 | 5 | &nbsp; | `tec-redshift-8` | `tec-redshift-1` | `tec-redshift-1` |
 | PB016 | digital-library-project | 286 | 46 | 63 | &nbsp; | `digital-library-project-11` | `digital-library-project-5` | `digital-library-project-1` |
 | PB040 | tec-exablaster-mode | 144 | 45 | 19 | &nbsp; | `tec-exablaster-modem-7` | `tec-exablaster-modem-1` | `tec-exablaster-modem-1` |
@@ -25,7 +25,7 @@
 | PB023 | xtreme-league-baseball | 77 | 52 | 4 | &nbsp; | `xtreme-league-baseball-9` | `xtreme-league-baseball-9` | `xtreme-league-baseball-8` |
 | PB024 | kings-ransom-online | 31 | 51 | 25 | &nbsp; | `kings-ransom-online-6` | `kings-ransom-online-1` | `kings-ransom-online-5` |
 | PB028 | kgogtv | 423 | 77 | 7 | &nbsp; | `kgogtv-13` | `kgogtv-12` | `kgogtv-10` |
-| PB025 | equity-first-bank | 97 | 75 | 17 | &nbsp; | `equity-first-bank-8` | `equity-first-bank-8` | `equity-first-bank-8` |
-| PB026B | tec-exablaster-modem | 967 | 94 | 33 | &nbsp; | `tec-exablaster-modem-15` | `tec-exablaster-modem-15` | `tec-exablaster-modem-12` |
+| PB025 | equity-first-bank | 86 | 72 | 17 | &nbsp; | `equity-first-bank-14` | `equity-first-bank-14` | `equity-first-bank-14` |
+| PB026B | tec-exablaster-modem | 826 | 86 | 33 | &nbsp; | `tec-exablaster-modem-18` | `tec-exablaster-modem-16` | `tec-exablaster-modem-12` |
 | PB029B | last-stop-snaxnet | 152 | 65 | 35 | &nbsp; | `last-stop-snaxnet-15` | `last-stop-snaxnet-14` | `last-stop-snaxnet-15` |
 | PB030 | mitsuzen-hdi10 | 957 | 40 | 302 | &nbsp; | `mitsuzen-hdi10-33` | `mitsuzen-hdi10-33` | `mitsuzen-hdi10-33` |

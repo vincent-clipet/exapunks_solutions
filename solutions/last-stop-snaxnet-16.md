@@ -2,7 +2,7 @@
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
-| 28 | 31 | 2 |
+| 27 | 30 | 2 |
 <hr>
 <br>
 
@@ -15,30 +15,15 @@ GRAB 237
 COPY M X
 
 MARK LOOP
+@REP 9
 TEST F = X
 TJMP CLEAN
-TEST F = X
-TJMP CLEAN
-TEST F = X
-TJMP CLEAN
-TEST F = X
-TJMP CLEAN
-TEST F = X
-TJMP CLEAN
-TEST F = X
-TJMP CLEAN
-TEST F = X
-TJMP CLEAN
-TEST F = X
-TJMP CLEAN
-TEST F = X
-TJMP CLEAN
-TEST F = X
-TJMP CLEAN
+@END
 TEST F = X
 
 MARK CLEAN
-SEEK -1
+MULI -1 T X
+SEEK X
 VOID F
 ```
 

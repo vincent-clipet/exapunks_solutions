@@ -1,4 +1,4 @@
-## PB012 --- CYCLES V4 - UNROLLED X2 (COPY)
+## PB012 --- CYCLES V5 - MODULO
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
