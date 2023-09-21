@@ -2,7 +2,7 @@
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
-| 217 | 65 | 3 |
+| 199 | 74 | 3 |
 <hr>
 <br>
 
@@ -15,6 +15,9 @@ LINK 799
 GRAB M
 SEEK 2
 
+@REP 9
+ADDI X F X
+@END
 MARK SUM
 ADDI X F X
 TEST EOF
