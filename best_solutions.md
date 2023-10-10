@@ -17,7 +17,7 @@
 | PB013C | trash-world-news | 551 | 24 | 4 | &nbsp; | `trash-world-news-32` | `trash-world-news-32` | `trash-world-news-16` |
 | PB015 | tec-redshift | 2833 | 21 | 5 | &nbsp; | `tec-redshift-8` | `tec-redshift-1` | `tec-redshift-1` |
 | PB016 | digital-library-project | 242 | 43 | 63 | &nbsp; | `digital-library-project-13` | `digital-library-project-12` | `digital-library-project-1` |
-| PB040 | tec-exablaster-mode | 144 | 45 | 19 | &nbsp; | `tec-exablaster-modem-7` | `tec-exablaster-modem-1` | `tec-exablaster-modem-1` |
+| PB040 | tec-exablaster-modem | 144 | 45 | 19 | &nbsp; | `tec-exablaster-modem-7` | `tec-exablaster-modem-1` | `tec-exablaster-modem-1` |
 | PB018 | emersons-guide | 30 | 45 | 6 | &nbsp; | `emersons-guide-5` | `emersons-guide-1` | `emersons-guide-1` |
 | PB038 | mitsuzen-hdi10 | 34 | 47 | 9 | &nbsp; | `mitsuzen-hdi10-27` | `mitsuzen-hdi10-12` | `mitsuzen-hdi10-23` |
 | PB020 | sawayama-wonderdisc | 4439 | 99 | 65 | &nbsp; | `sawayama-wonderdisc-6` | `sawayama-wonderdisc-3` | `sawayama-wonderdisc-3` |
@@ -29,3 +29,6 @@
 | PB026B | tec-exablaster-modem | 826 | 86 | 33 | &nbsp; | `tec-exablaster-modem-18` | `tec-exablaster-modem-16` | `tec-exablaster-modem-12` |
 | PB029B | last-stop-snaxnet | 152 | 65 | 35 | &nbsp; | `last-stop-snaxnet-15` | `last-stop-snaxnet-14` | `last-stop-snaxnet-15` |
 | PB030 | mitsuzen-hdi10 | 957 | 40 | 302 | &nbsp; | `mitsuzen-hdi10-33` | `mitsuzen-hdi10-33` | `mitsuzen-hdi10-33` |
+| PB032 | holman-dynamics | 5750 | 132 | 6 | &nbsp; | `holman-dynamics-3` | `holman-dynamics-3` | `holman-dynamics-2` |
+| PB033 | u.s.-government | 657 | 139 | 43 | &nbsp; | `u.s.-government-3` | `u.s.-government-1` | `u.s.-government-1` |
+| PB034 | unknown-network-2 | 94 | 39 | 53 | &nbsp; | `unknown-network-2-5` | `unknown-network-2-1` | `unknown-network-2-1` |

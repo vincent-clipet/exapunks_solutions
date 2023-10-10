@@ -1,0 +1,57 @@
+## PB034 --- V2
+
+| cycles | size | activity |
+| ------ | ---- | -------- |
+| 243 | 52 | 53 |
+<hr>
+<br>
+
+**XA**
+
+```
+LINK 800
+LINK 800
+LINK 800
+LINK 800
+LINK 800
+KILL
+KILL
+KILL
+KILL
+KILL
+KILL
+
+
+COPY 200 X
+MARK LOOP
+@REP 10
+REPL EXIT
+ADDI X 1 X
+@END
+TEST X > 299
+FJMP LOOP
+
+@REP 0
+REPL EXIT
+ADDI X 1 X
+@END
+
+@REP 4
+LINK -1
+REPL KILL_ALL
+@END
+HALT
+
+
+
+MARK EXIT
+GRAB X
+MARK EXIT_LOOP
+LINK -1
+JUMP EXIT_LOOP
+
+
+MARK KILL_ALL
+KILL
+KILL
+```
