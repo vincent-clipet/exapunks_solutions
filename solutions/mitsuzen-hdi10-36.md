@@ -1,0 +1,73 @@
+## PB030 --- V2 - TRIPLE
+
+| cycles | size | activity |
+| ------ | ---- | -------- |
+| 545 | 63 | 334 |
+<hr>
+<br>
+
+**MO**
+
+```
+LINK 800
+LINK -3
+LINK -3
+LINK 1
+
+MARK LOOP
+REPL B
+REPL A
+REPL C
+@REP 13
+NOOP
+@END
+
+JUMP LOOP
+
+
+MARK B
+TEST #NERV > -55
+ADDI X T X
+LINK 3
+TEST #NERV > -55
+ADDI X T X
+LINK 3
+TEST #NERV > -55
+ADDI X T X
+ADDI X M X
+ADDI X M X
+MULI X 5 X
+LINK 3
+SUBI X 75 #NERV
+HALT
+
+
+MARK A
+LINK -1
+TEST #NERV > -55
+ADDI X T X
+LINK 3
+TEST #NERV > -55
+ADDI X T X
+LINK 3
+TEST #NERV > -55
+ADDI X T X
+LINK 1
+COPY X M
+HALT
+
+
+MARK C
+LINK 1
+TEST #NERV > -55
+ADDI X T X
+LINK 3
+TEST #NERV > -55
+ADDI X T X
+LINK 3
+TEST #NERV > -55
+ADDI X T X
+LINK -1
+COPY X M
+HALT
+```

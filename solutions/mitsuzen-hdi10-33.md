@@ -2,7 +2,7 @@
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
-| 957 | 40 | 302 |
+| 928 | 39 | 302 |
 <hr>
 <br>
 
@@ -14,7 +14,13 @@ LINK 800
 
 MARK START
 
-@REP 2
+@REP 1
+TEST #NERV > -55
+ADDI 0 T X
+LINK -3
+@END
+
+@REP 1
 TEST #NERV > -55
 ADDI X T X
 LINK -3
@@ -51,7 +57,6 @@ MULI 5 X M
 
 LINK -1
 LINK 3
-COPY 0 X
 JUMP START
 ```
 

@@ -1,8 +1,8 @@
-## PB006B --- CYCLES - UNROLLED (COPY)
+## PB006B --- CYCLES - V3
 
 | cycles | size | activity |
 | ------ | ---- | -------- |
-| 58 | 49 | 4 |
+| 57 | 48 | 4 |
 <hr>
 <br>
 
@@ -23,43 +23,19 @@ COPY F M
 
 ```
 ; ZEROING BALANCE
-
-NOOP
+;
+COPY M X
 LINK 800
 GRAB 200
-COPY M X
-
+SEEK 9999
+SEEK -3
 
 MARK LOOP
-
+@REP 7
 TEST F = X
 TJMP ERASE
-SEEK 2
-
-TEST F = X
-TJMP ERASE
-SEEK 2
-
-TEST F = X
-TJMP ERASE
-SEEK 2
-
-TEST F = X
-TJMP ERASE
-SEEK 2
-
-TEST F = X
-TJMP ERASE
-SEEK 2
-
-TEST F = X
-TJMP ERASE
-SEEK 2
-
-TEST F = X
-TJMP ERASE
-SEEK 2
-
+SEEK -4
+@END
 JUMP LOOP
 
 
@@ -78,8 +54,6 @@ COPY 0 F
 ```
 ; APPEND TO PAYMENT LOG
 
-NOOP
-NOOP
 LINK 800
 GRAB 201
 

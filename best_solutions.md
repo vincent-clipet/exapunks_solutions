@@ -7,7 +7,7 @@
 | PB003B | euclids-pizza | 13 | 14 | 1 | &nbsp; | `euclids-pizza-4` | `euclids-pizza-4` | `euclids-pizza-2` |
 | PB004 | mitsuzen-hdi10 | 37 | 21 | 6 | &nbsp; | `mitsuzen-hdi10-35` | `mitsuzen-hdi10-30` | `mitsuzen-hdi10-30` |
 | PB005 | last-stop-snaxnet | 27 | 13 | 2 | &nbsp; | `last-stop-snaxnet-16` | `last-stop-snaxnet-11` | `last-stop-snaxnet-11` |
-| PB006B | zebros-copies | 58 | 27 | 4 | &nbsp; | `zebros-copies-5` | `zebros-copies-3` | `zebros-copies-3` |
+| PB006B | zebros-copies | 55 | 27 | 2 | &nbsp; | `zebros-copies-7` | `zebros-copies-3` | `zebros-copies-7` |
 | PB007 | sfcta-highway-sign-#4902 | 88 | 10 | 1 | &nbsp; | `sfcta-highway-sign-#4902-6` | `sfcta-highway-sign-#4902-3` | `sfcta-highway-sign-#4902-3` |
 | PB008 | unknown-network-1 | 16 | 19 | 27 | &nbsp; | `unknown-network-1-3` | `unknown-network-1-2` | `unknown-network-1-2` |
 | PB009 | uc-berkeley | 106 | 32 | 7 | &nbsp; | `uc-berkeley-11` | `uc-berkeley-9` | `uc-berkeley-2` |
@@ -28,7 +28,7 @@
 | PB025 | equity-first-bank | 86 | 72 | 17 | &nbsp; | `equity-first-bank-14` | `equity-first-bank-14` | `equity-first-bank-14` |
 | PB026B | tec-exablaster-modem | 826 | 86 | 33 | &nbsp; | `tec-exablaster-modem-18` | `tec-exablaster-modem-16` | `tec-exablaster-modem-12` |
 | PB029B | last-stop-snaxnet | 152 | 65 | 35 | &nbsp; | `last-stop-snaxnet-15` | `last-stop-snaxnet-14` | `last-stop-snaxnet-15` |
-| PB030 | mitsuzen-hdi10 | 957 | 40 | 302 | &nbsp; | `mitsuzen-hdi10-33` | `mitsuzen-hdi10-33` | `mitsuzen-hdi10-33` |
+| PB030 | mitsuzen-hdi10 | 545 | 39 | 302 | &nbsp; | `mitsuzen-hdi10-36` | `mitsuzen-hdi10-33` | `mitsuzen-hdi10-33` |
 | PB032 | holman-dynamics | 5750 | 132 | 6 | &nbsp; | `holman-dynamics-3` | `holman-dynamics-3` | `holman-dynamics-2` |
 | PB033 | u.s.-government | 657 | 139 | 43 | &nbsp; | `u.s.-government-3` | `u.s.-government-1` | `u.s.-government-1` |
 | PB034 | unknown-network-2 | 94 | 39 | 53 | &nbsp; | `unknown-network-2-5` | `unknown-network-2-1` | `unknown-network-2-1` |

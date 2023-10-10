@@ -1,0 +1,63 @@
+## PB006B --- CYCLES - V4
+
+| cycles | size | activity |
+| ------ | ---- | -------- |
+| 55 | 32 | 2 |
+<hr>
+<br>
+
+**ZE**
+
+```
+; ZEROING BALANCE
+;
+LINK 800
+GRAB 200
+COPY M X
+REPL SPLIT
+
+
+SEEK 9999
+SEEK -3
+TEST F = X
+TJMP ERASE
+MARK LOOP
+SEEK -4
+TEST F = X
+FJMP LOOP
+
+
+MARK ERASE
+COPY F M
+COPY F M
+SEEK -2
+COPY 0 F
+COPY 0 F
+HALT
+
+
+MARK SPLIT
+REPL PAYMENT_LOG
+LINK 801
+COPY #DATE M
+
+
+MARK PAYMENT_LOG
+GRAB 201
+SEEK 9999
+COPY M F ; DATE
+COPY X F ; ID
+COPY M F ; DOLLARS
+COPY M F ; CENTS
+```
+
+<br>
+
+**PA**
+
+```
+; SEND ID
+
+GRAB 300
+COPY F M
+```
